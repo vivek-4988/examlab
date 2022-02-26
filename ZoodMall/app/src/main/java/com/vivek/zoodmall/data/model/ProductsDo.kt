@@ -1,12 +1,5 @@
 package com.vivek.zoodmall.data.model
 
-import android.graphics.drawable.Drawable
-import androidx.appcompat.widget.AppCompatImageView
-import androidx.databinding.BindingAdapter
-import com.bumptech.glide.Glide
-import com.bumptech.glide.request.RequestOptions
-import com.bumptech.glide.request.target.Target
-
 
 data class ProductsDo(
     val Message: String? = null,

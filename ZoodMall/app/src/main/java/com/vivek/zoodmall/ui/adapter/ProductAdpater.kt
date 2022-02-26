@@ -1,7 +1,6 @@
 package com.vivek.zoodmall.ui.adapter
 
 import android.os.Build
-import android.text.Html
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.annotation.RequiresApi
@@ -28,6 +27,7 @@ class ProductAdpater(val list: List<MarketListItem>): RecyclerView.Adapter<Produ
         return ProductViewHolder(binding)
     }
 
+    @RequiresApi(Build.VERSION_CODES.N)
     override fun onBindViewHolder(holder: ProductViewHolder, position: Int) {
         holder.bind(list[position])
     }
