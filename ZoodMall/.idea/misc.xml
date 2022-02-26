@@ -4,10 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/project/androidgittest/examlab/ZoodMall/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/project/androidgittest/examlab/ZoodMall/app/src/main/res/layout/item_products.xml" value="0.13682487725040918" />
+        <entry key="..\:/project/androidgittest/examlab/ZoodMall/app/src/main/res/layout/item_slider_layout.xml" value="0.1829787234042553" />
+        <entry key="..\:/project/androidgittest/examlab/ZoodMall/app/src/main/res/xml/network_security_config.xml" value="0.21770833333333334" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
