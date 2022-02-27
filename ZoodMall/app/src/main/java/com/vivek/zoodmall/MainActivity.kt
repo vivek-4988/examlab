@@ -3,19 +3,17 @@ package com.vivek.zoodmall
 import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.widget.AppCompatImageView
-import androidx.databinding.BindingAdapter
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
-import com.bumptech.glide.Glide
 import com.vivek.zoodmall.data.model.BannersResponseModel
 import com.vivek.zoodmall.data.model.MarketListItem
 import com.vivek.zoodmall.data.model.ProductsDo
 import com.vivek.zoodmall.databinding.ActivityMainBinding
 import com.vivek.zoodmall.ui.adapter.AdapterImageSlider
 import com.vivek.zoodmall.ui.adapter.ProductAdpater
+import com.vivek.zoodmall.ui.view.PaginationScrollListener
 import com.vivek.zoodmall.ui.viewmodel.ZoodViewModel
 
 class MainActivity : AppCompatActivity() {
@@ -28,22 +26,39 @@ class MainActivity : AppCompatActivity() {
     //for auto image loading
     var runnable: Runnable? = null
     var handler: Handler? = null
+    var currentPage: Int = 1
+
+    var list = arrayListOf<MarketListItem>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
         vm.getBanners()
-        vm.getProducts(1)
+        vm.getProducts(currentPage)
+        var gridManager = GridLayoutManager(this, 2)
+        binding.recycle.addOnScrollListener(object : PaginationScrollListener(gridManager) {
+            override fun loadMoreItems() {
+                currentPage++
+                vm.getProducts(currentPage)
+            }
+        });
+
         vm.products.observe(this, Observer {
             val productsDo: ProductsDo = (it)
-            val list = productsDo.Data?.marketList as List<MarketListItem>
+            val mlist = productsDo.Data?.marketList as List<MarketListItem>
+            if (list?.isNotEmpty()) {
+                list.addAll(mlist)
+            } else {
+                list = mlist as ArrayList<MarketListItem>;
+            }
             val myProductAdapter = ProductAdpater(list)
             binding.recycle.apply {
-                layoutManager = GridLayoutManager(this@MainActivity, 2)
+                layoutManager = gridManager
                 adapter = myProductAdapter
             }
-            myProductAdapter.notifyDataSetChanged()
+            myProductAdapter.notifyItemChanged(list.size - 2)
+
         })
 
         vm.banners.observe(this, Observer {
