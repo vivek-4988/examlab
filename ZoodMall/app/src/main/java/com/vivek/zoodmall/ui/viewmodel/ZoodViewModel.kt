@@ -14,6 +14,9 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
+/*
+* ViewModel for MainActivity class api
+* */
 class ZoodViewModel : ViewModel() {
 
     val banners = MutableLiveData<BannersResponseModel>()

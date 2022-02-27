@@ -15,6 +15,7 @@ class ProductAdpater(val list: List<MarketListItem>): RecyclerView.Adapter<Produ
         @RequiresApi(Build.VERSION_CODES.N)
         fun bind(item: MarketListItem) {
             with(binding) {
+                //binding model to product adapter
                 binding.model = item
                 binding.executePendingBindings()
             }
