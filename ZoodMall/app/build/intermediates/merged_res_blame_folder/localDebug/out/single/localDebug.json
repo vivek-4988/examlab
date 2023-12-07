@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\build\\intermediates\\merged_res\\localDebug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\build\\intermediates\\merged_res\\localDebug\\xml_network_security_config.xml.flat",
+        "source": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\src\\main\\res\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\build\\intermediates\\merged_res\\localDebug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\build\\intermediates\\merged_res\\localDebug\\layout_item_slider_layout.xml.flat",
+        "source": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\src\\main\\res\\layout\\item_slider_layout.xml"
+    },
+    {
+        "merged": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\build\\intermediates\\merged_res\\localDebug\\layout_item_products.xml.flat",
+        "source": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\src\\main\\res\\layout\\item_products.xml"
+    },
+    {
+        "merged": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\build\\intermediates\\merged_res\\localDebug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\build\\generated\\res\\pngs\\local\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\build\\intermediates\\merged_res\\localDebug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\build\\intermediates\\merged_res\\localDebug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\build\\intermediates\\merged_res\\localDebug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\build\\intermediates\\merged_res\\localDebug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\build\\intermediates\\merged_res\\localDebug\\layout_activity_main.xml.flat",
+        "source": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\build\\intermediates\\merged_res\\localDebug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\build\\intermediates\\merged_res\\localDebug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\build\\intermediates\\merged_res\\localDebug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\build\\intermediates\\merged_res\\localDebug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\build\\intermediates\\merged_res\\localDebug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\build\\intermediates\\merged_res\\localDebug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\build\\intermediates\\merged_res\\localDebug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\build\\intermediates\\incremental\\mergeLocalDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\build\\intermediates\\incremental\\mergeLocalDebugResources\\stripped.dir\\layout\\item_slider_layout.xml",
+        "source": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\src\\main\\res\\layout\\item_slider_layout.xml"
+    },
+    {
+        "merged": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\build\\intermediates\\incremental\\mergeLocalDebugResources\\stripped.dir\\layout\\item_products.xml",
+        "source": "D:\\project\\androidgittest\\examlab\\ZoodMall\\app\\src\\main\\res\\layout\\item_products.xml"
+    }
+]

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                   
+
+    
+
+           
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity" android:tag="layout/activity_main_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/bannerPager"
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/purple_700"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/recommended"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+         
