@@ -7,7 +7,7 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 /*
-* TODO API's definations
+* TODO API's definitions
 * */
 interface ApiService {
 
