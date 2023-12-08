@@ -8,9 +8,9 @@
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
-        android:orientation="vertical"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/_5sdp">
+        android:layout_margin="@dimen/_5sdp"
+        android:orientation="vertical">
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/headName"
@@ -25,6 +25,9 @@
             android:id="@+id/subHeadRecycle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 
     </androidx.appcompat.widget.LinearLayoutCompat>

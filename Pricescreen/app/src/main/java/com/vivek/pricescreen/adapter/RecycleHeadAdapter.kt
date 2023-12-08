@@ -16,7 +16,8 @@ class RecycleHeadAdapter(
 ) : RecyclerView.Adapter<RecycleHeadAdapter.HomeViewHolder>() {
 
     private lateinit var binding: RowItemHeadBinding
-    var subItemClick: ((String) -> Unit)? = null
+    var subItemClick: ((String, SpecificationItem) -> Unit)? = null
+    var updateItemClick: ((String, SpecificationItem,Boolean) -> Unit)? = null
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HomeViewHolder {
         binding =
@@ -26,21 +27,21 @@ class RecycleHeadAdapter(
 
     override fun onBindViewHolder(holder: HomeViewHolder, position: Int) {
         try {
-            var myDo = list.get(position)
-            holder.bind(myDo)
+            var specificDO = list.get(position)
+            holder.bind(specificDO)
 
             //val myList = filteredList(myDo.list.get(position)._id,list)
             binding.subHeadRecycle.apply {
                 adapter = RecycleSubHeadAdapter(
                     context,
-                    myDo.list as ArrayList<SpecificationItem>, myDo.type
+                    specificDO.list as ArrayList<SpecificationItem>, specificDO.type
                 ).apply {
-                    itemClick = {
+                    itemClick = { s: String, specificationItem: SpecificationItem , isSelected:Boolean ->
                         if (position == 0) {
-                            Toast.makeText(con, "Head: ${it}", Toast.LENGTH_SHORT).show()
-                            subItemClick?.invoke(it)
+                            Toast.makeText(con, "Head: ${s}", Toast.LENGTH_SHORT).show()
+                            subItemClick?.invoke(s, specificationItem)
                         } else {
-
+                            updateItemClick?.invoke(s, specificationItem,isSelected)
                         }
                     }
                 }
